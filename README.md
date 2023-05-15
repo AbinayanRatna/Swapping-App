@@ -16,12 +16,12 @@ Used software/ technologies,
 - Firebase storage
 - Native Android Development - Android Studio (Kotlin)
 
-Screenshots:
+Screenshots (Admin side):
 
-<img src="img/home.png" alt="Home" style="width: 600px"/>
-<img src="img/prac.png" alt="Practice" style="width: 600px"/>
-<img src="img/result-1.png" alt="Result-1" style="width: 600px"/>
-<img src="img/result-2.png" alt="Result-2" style="width: 600px"/>
+<img src="scrshots/home.png" alt="Home" style="width: 600px"/>
+<img src="scrshots/prac.png" alt="Practice" style="width: 600px"/>
+<img src="scrshots/result-1.png" alt="Result-1" style="width: 600px"/>
+<img src="scrshots/result-2.png" alt="Result-2" style="width: 600px"/>
 
 ## Author
 
