@@ -18,17 +18,24 @@ Used software/ technologies,
 
 Screenshots (Admin side):
 
-<img src="scrshots/home.png" alt="Home" style="width: 600px"/>
-<img src="scrshots/prac.png" alt="Practice" style="width: 600px"/>
-<img src="scrshots/result-1.png" alt="Result-1" style="width: 600px"/>
-<img src="scrshots/result-2.png" alt="Result-2" style="width: 600px"/>
+<img src="scrshots/login.jpeg" alt="Login" style="width: 400px"/>
+<img src="scrshots/admin_add.jpeg" alt=Add" style="width: 400px"/>
+<img src="scrshots/admin_edit.jpeg" alt="Edit" style="width: 400px"/>
+<img src="scrshots/category_list.jpeg" alt="Categories" style="width: 400px"/>
+                                                                           
+Screenshots (User side):
+
+<img src="scrshots/Swap_select.jpeg" alt="Login" style="width: 400px"/>
+<img src="scrshots/items_for_swap.jpeg" alt=Add" style="width: 400px"/>
+<img src="scrshots/swap_add.jpeg" alt="Edit" style="width: 400px"/>
+<img src="scrshots/swap_list.jpeg" alt="Categories" style="width: 400px"/>
 
 ## Author
 
-👤 **Karthick T. Sharma**
+👤 **Abinayan Ratnasingam**
 
-- Github: [@karthick47v2](https://github.com/karthick47v2)
-- LinkedIn: [@karthick47](https://linkedin.com/in/karthick47)
+- Github: https://github.com/AbinayanRatna
+- LinkedIn: https://www.linkedin.com/in/abinayan-ratnasingam-5092b3214/
 
 ## Show your support
 
