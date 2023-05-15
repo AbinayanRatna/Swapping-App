@@ -1,4 +1,4 @@
-<h1 align="center">Barter System 🤝</h1>
+<h1 align="center">Swapping App 🤝</h1>
 
 ## IMPORTANT
 This code is only for width < 600dp and 480dp ≤ height < 900dp
