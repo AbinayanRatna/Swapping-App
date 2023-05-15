@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/backnow"
+    android:orientation="vertical"
+    tools:context=".AdminViewCategory">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/acme"
+        android:text="Add New Details"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_gravity="left"
+            android:layout_marginLeft="@dimen/my_dimen15"
+            android:layout_marginTop="15dp"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            app:cardCornerRadius="250dp"
+            app:cardBackgroundColor="#62B8A8">
+            <androidx.cardview.widget.CardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                app:cardCornerRadius="250dp"
+                android:layout_gravity="center">
+                <ImageView
+                    android:id="@+id/imgDoctor"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:scaleType="centerCrop"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.cardview.widget.CardView>
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/imgDoctor"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginLeft="30dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:background="@color/black" />-->
+
+        <Button
+
+            android:id="@+id/uploadBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="90dp"
+            android:backgroundTint="@color/black"
+            android:text="Upload"
+            android:textColor="@color/white" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="9dp"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:paddingLeft="20dp"
+        android:id="@+id/nameTxt"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/input"
+        android:fontFamily="@font/aclonica"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="9dp"
+        android:text="price"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:paddingLeft="20dp"
+
+        android:id="@+id/priceTxt"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/input"
+        android:fontFamily="@font/aclonica"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="9dp"
+        android:text="Address"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:paddingLeft="20dp"
+        android:id="@+id/addressTxt"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/input"
+        android:fontFamily="@font/aclonica"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/vehicleDot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Vehicle"
+            />
+        <RadioButton
+            android:id="@+id/propertyDot"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Property"
+            />
+
+        <RadioButton
+            android:id="@+id/deviceDot"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electronic"
+            />
+    </RadioGroup>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/fashioDot"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Fashion"
+            />
+        <RadioButton
+            android:id="@+id/sportsDot"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sports"
+            />
+
+        <RadioButton
+            android:id="@+id/serviceDot"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Service"
+            />
+    </RadioGroup>
+
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:gravity="bottom"-->
+<!--        android:orientation="horizontal">-->
+
+
+<!--        <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="vertical">-->
+
+
+<!--            <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/vehicleDot"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="40dp"-->
+<!--                    android:layout_marginRight="80dp"-->
+<!--                    android:checked="false"-->
+<!--                    android:text="Vehicle"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="15dp"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/propertyDot"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:checked="false"-->
+
+<!--                    android:text="Property"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="15dp"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--            </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+<!--            <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/deviceDot"-->
+<!--                    android:layout_width="fill_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+
+<!--                    android:layout_marginLeft="40dp"-->
+<!--                    android:layout_marginRight="70dp"-->
+<!--                    android:checked="false"-->
+<!--                    android:text="Electronic"-->
+
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="15dp"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/fashioDot"-->
+<!--                    android:layout_width="fill_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:checked="false"-->
+
+<!--                    android:text="Fashion"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="15dp"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--            </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+<!--            <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/sportsDot"-->
+<!--                    android:layout_width="fill_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="40dp"-->
+<!--                    android:layout_marginRight="93dp"-->
+<!--                    android:checked="false"-->
+<!--                    android:text="Sport"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="15dp"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/serviceDot"-->
+<!--                    android:layout_width="fill_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:checked="false"-->
+<!--                    android:text="Service"-->
+<!--                    android:textColor="@color/black"-->
+
+<!--                    android:textSize="15dp"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--            </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+
+<!--        </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+
+<!--    </LinearLayout>-->
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/addBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="@color/black"
+            android:fontFamily="@font/aclonica"
+            android:text="Add"
+            android:textColor="@color/white"
+            android:textSize="19dp" />
+
+        <Button
+            android:id="@+id/cancelBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/black"
+            android:fontFamily="@font/aclonica"
+            android:text="Cancel"
+            android:textColor="@color/white"
+            android:textSize="19dp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
