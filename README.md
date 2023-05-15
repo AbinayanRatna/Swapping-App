@@ -1,6 +1,6 @@
 # barter_system
-This sample app contains both admin based and user based functions in it.
-Admin based functions :- 
+#This sample app contains both admin based and user based functions in it.
+#Admin based functions :- 
                * Add new items.
                * Edit those new items.
 
