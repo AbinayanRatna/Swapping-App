@@ -30,6 +30,7 @@ Screenshots (User side):
 <img src="scrshots/swap_add.jpeg" alt="Edit" style="width: 200px"/>
 <img src="scrshots/swap_list.jpeg" alt="Categories" style="width: 200px"/>
 </p>
+
 ## Author
 
 👤 **Abinayan Ratnasingam**
