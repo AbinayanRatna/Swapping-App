@@ -17,19 +17,19 @@ Used software/ technologies,
 - Native Android Development - Android Studio (Kotlin)
 
 Screenshots (Admin side):
-
-<img src="scrshots/login.jpeg" alt="Login" style="width: 400px"/>
-<img src="scrshots/admin_add.jpeg" alt=Add" style="width: 400px"/>
-<img src="scrshots/admin_edit.jpeg" alt="Edit" style="width: 400px"/>
-<img src="scrshots/category_list.jpeg" alt="Categories" style="width: 400px"/>
-                                                                           
+<p float="left">
+<img src="scrshots/login.jpeg" alt="Login" style="width: 100px"/>
+<img src="scrshots/admin_add.jpeg" alt=Add" style="width: 100px"/>
+<img src="scrshots/admin_edit.jpeg" alt="Edit" style="width: 100px"/>
+<img src="scrshots/category_list.jpeg" alt="Categories" style="width: 100px"/>
+</p>                                                                           
 Screenshots (User side):
-
-<img src="scrshots/Swap_select.jpeg" alt="Login" style="width: 400px"/>
-<img src="scrshots/items_for_swap.jpeg" alt=Add" style="width: 400px"/>
-<img src="scrshots/swap_add.jpeg" alt="Edit" style="width: 400px"/>
-<img src="scrshots/swap_list.jpeg" alt="Categories" style="width: 400px"/>
-
+<p float="left">
+<img src="scrshots/Swap_select.jpeg" alt="Login" style="width: 100px"/>
+<img src="scrshots/items_for_swap.jpeg" alt=Add" style="width: 100px"/>
+<img src="scrshots/swap_add.jpeg" alt="Edit" style="width: 100px"/>
+<img src="scrshots/swap_list.jpeg" alt="Categories" style="width: 100px"/>
+</p>
 ## Author
 
 👤 **Abinayan Ratnasingam**
